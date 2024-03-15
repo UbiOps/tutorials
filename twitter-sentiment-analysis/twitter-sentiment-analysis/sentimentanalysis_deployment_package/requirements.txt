@@ -1,0 +1,4 @@
+textblob==0.15.3
+tqdm==4.55.1
+tweepy==3.10.0
+pygsheets==2.0.5

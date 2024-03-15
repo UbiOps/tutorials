@@ -1,0 +1,27 @@
+
+#test build pipeline
+
+{
+  "pipeline": {
+    "name": "faces_train_model"
+  },
+  "datum_tries": 1,
+  "description": "A pipeline that trains our neural network",
+  "transform": {
+    "build": {
+      "image": "raoulfaselubiops/pachyderm-builder:latest", # We are using a custom Pachyderm builder pipeline here
+      "path": "./"
+    },
+    "secrets": [ {
+        "name": "ubiops",
+        "mount_path": "/opt/ubiops"
+    },
+    ] 
+  },
+  "input": {
+    "pfs": {
+      "repo": "faces",
+      "glob": "/*"
+    }
+  }
+}

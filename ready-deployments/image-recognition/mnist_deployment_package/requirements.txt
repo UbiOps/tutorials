@@ -1,0 +1,6 @@
+# This file contains package requirements for the deployment
+# installed via PIP. Installed before deployment initialization
+
+tensorflow==2.5.*
+imageio==2.5.0
+numpy==1.19.*

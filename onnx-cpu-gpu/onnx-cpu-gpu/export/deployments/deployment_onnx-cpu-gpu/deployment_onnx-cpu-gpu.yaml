@@ -1,0 +1,14 @@
+deployment_name: "onnx-cpu-gpu"
+deployment_description: ""
+deployment_labels: 
+  import: "e2dfe7af-7e5b-453b-b25d-2da9978c4bf5"
+default_version: gpu
+input_type: structured
+input_fields: 
+  - name: "image"
+    data_type: file
+output_type: structured
+output_fields: 
+  - name: "output"
+    data_type: file
+deployment_environment_variables: []
