@@ -1,0 +1,8 @@
+# This file contains package requirements for the deployment
+# installed via PIP. Installed before deployment initialization
+
+tensorflow==2.4.0
+imageio==2.5.0
+h5py==2.10.0
+numpy==1.19.2
+Pillow==8.0.1
