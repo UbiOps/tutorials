@@ -1,0 +1,13 @@
+version_name: "gpu"
+version_description: ""
+version_labels: 
+  import: "e2dfe7af-7e5b-453b-b25d-2da9978c4bf5"
+environment: python3-11-cuda
+memory_allocation: 16384
+instance_type: 16384mb_t4
+minimum_instances: 1
+maximum_instances: 1
+maximum_idle_time: 300
+request_retention_mode: "full"
+request_retention_time: 86400
+version_environment_variables: []
