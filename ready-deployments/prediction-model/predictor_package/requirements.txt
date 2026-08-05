@@ -1,0 +1,7 @@
+# This file can contain package requirements for the deployment to be installed via Python pip. Packages defined here
+# will be installed with your deployment automatically.
+#
+# Example:
+requests==2.32.3
+tensorflow==2.17.0
+pandas==2.2.2
