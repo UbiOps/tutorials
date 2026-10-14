@@ -1,0 +1,4 @@
+onnxruntime-gpu==1.10.*
+pillow
+numpy
+python-resize-image

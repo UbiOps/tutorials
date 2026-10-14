@@ -1,0 +1,4 @@
+# This file can contain package requirements for the deployment to be installed via Python pip. Packages defined here
+# will be installed with your deployment automatically.
+
+pickleshare==0.7.5

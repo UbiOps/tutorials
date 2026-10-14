@@ -1,0 +1,8 @@
+# This file contains package requirements for the model
+# installed via PIP. Installed before model initialization
+
+opencv-python==4.5.1.48
+imageio==2.5.0
+onnxruntime
+
+
